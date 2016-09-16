@@ -28,14 +28,14 @@
     // packages tells the System loader how to load when no filename and/or no extension
     packages: {
       app: {
-        main: '/dist/main.js',
+        main: './dist/main.js',
         defaultExtension: 'js'
       },
       rxjs: {
         defaultExtension: 'js'
       },
       'angular2-in-memory-web-api': {
-        main: '/dist/index.js',
+        main: './index.js',
         defaultExtension: 'js'
       }
     }
